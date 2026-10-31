@@ -3,9 +3,7 @@
 | Question | Folder | Stack |
 |---|---|---|
 | Q1 (8) Student Management System | `q1-student-management` | MERN |
-| Q2 Task 1 (16) Online Bookstore | `q2-task1-bookstore` | MERN |
 | Q2 Task 2 (16) Student Task Manager | `q2-task2-task-manager` | MERN |
-| Q3 Task 1 (16) Course Registration | `q3-task1-course-registration` | MEAN (Angular) |
 | Q3 Task 2 (16) Appointment Booking | `q3-task2-appointment-booking` | MEAN (Angular) |
 
 Q2 and Q3 are "OR" questions, so you only need to submit one task from each. All five are included.
@@ -36,9 +34,7 @@ Run only one project's server at a time (they all use port 5000), or change `POR
 
 ## What each project covers
 - **Q1**: React form (add/update), Express REST API (`/api/students`), MongoDB via Mongoose, add / view / update / delete.
-- **Q2-T1**: React components for books, MongoDB fields title/author/price/availability, REST CRUD, search by title or author (`GET /api/books?search=`).
 - **Q2-T2**: Add / edit / delete tasks, priority and completion status, React Hooks (`useState`, `useEffect`, `useMemo`, `useCallback`), Node backend + MongoDB.
-- **Q3-T1**: Angular course list, register / cancel (seat limits enforced by the API), course and student data in MongoDB, Angular reactive-form validation.
 - **Q3-T2**: Angular patient registration form, doctors with free slots, REST appointment APIs (atomic slot booking, cancel frees the slot), patients and appointments in MongoDB.
 
 Sample books, courses and doctors are seeded automatically the first time a server starts on an empty database.
